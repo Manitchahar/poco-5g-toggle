@@ -1,0 +1,53 @@
+name: Bug report
+description: Report a reproducible app, tile, widget, or firmware problem
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not post phone numbers, device serials, subscription identifiers, or unredacted logs.
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      placeholder: Poco F7
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: Android and firmware version
+      placeholder: Android 16, HyperOS OS3.x
+    validations:
+      required: true
+  - type: input
+    id: shizuku
+    attributes:
+      label: Shizuku version and status
+      placeholder: 13.6.0, running through wireless debugging
+    validations:
+      required: true
+  - type: dropdown
+    id: entrypoint
+    attributes:
+      label: Entry point
+      options: [Quick Settings tile, Home-screen widget, Main activity, Device proof script]
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Redacted error or read-back evidence
+      description: State whether this is configuration read-back or actual network registration.

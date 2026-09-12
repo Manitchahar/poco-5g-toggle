@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" role="img" aria-labelledby="title desc">
+  <title id="title">5G Toggle</title>
+  <desc id="desc">White 5G lettering with a green status dot on a blue circular background.</desc>
+  <defs>
+    <clipPath id="circle"><circle cx="54" cy="54" r="52"/></clipPath>
+  </defs>
+  <g clip-path="url(#circle)">
+    <rect width="108" height="108" fill="#1268e8"/>
+    <path d="M0 82 82 0h26v108H0z" fill="#175cc8"/>
+    <path d="M0 0h70L0 70z" fill="#1c74f2"/>
+  </g>
+  <text x="17" y="73" fill="white" font-family="Arial,Helvetica,sans-serif" font-size="53" font-weight="700" letter-spacing="-4">5G</text>
+  <circle cx="82" cy="24" r="7" fill="#63e681"/>
+</svg>

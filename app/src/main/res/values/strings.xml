@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">5G Toggle</string>
+    <string name="tile_name">5G</string>
+    <string name="screen_title">Poco Network Toggle</string>
+    <string name="screen_description">Automatically follows the SIM currently used for mobile data. Toggles 5G availability while keeping LTE and fallback networks.</string>
+    <string name="toggle_button">Toggle 5G</string>
+    <string name="grant_shizuku">Grant Shizuku permission</string>
+    <string name="open_network_settings">Open mobile network settings</string>
+    <string name="background_note">No persistent service or polling. A non-daemon Shizuku helper exists only while the app process is alive.</string>
+    <string name="automatic_target">Automatic target: %1$s</string>
+    <string name="target_mobile_data">%1$s (mobile data)</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="checking">Checking…</string>
+    <string name="switching">Switching and verifying…</string>
+    <string name="widget_tap_to_toggle">Tap to toggle</string>
+    <string name="widget_description">Toggle 5G for the current mobile-data SIM</string>
+</resources>
